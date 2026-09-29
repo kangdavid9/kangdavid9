@@ -2,13 +2,9 @@
 <tr>
 <td width="58%" valign="top">
 
-<!-- Banner Header (Adaptive Light/Dark Mode) -->
+<!-- Banner Header -->
 <a href="https://github.com/kangdavid9">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img src="./assets/banner-dark.svg" width="100%" alt="Kang David Header" />
-</picture>
+  <img src="./assets/banner.png" width="100%" alt="Kang David Banner" />
 </a>
 
 <br/><br/>
@@ -60,9 +56,9 @@
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=default&hide_border=false&border_color=d0d7de&background=ffffff&ring=0969da&fire=0969da&currStreakLabel=0969da">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="100%" alt="Streak Stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
+  <img src="./assets/contributions-dark.svg" width="100%" alt="Contributions in the last year" />
 </picture>
 
 <br/><br/>
