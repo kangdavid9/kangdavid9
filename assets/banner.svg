@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="220">
+  <defs>
+    <!-- Background Dark Gradient -->
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="45%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#1e3a5f" />
+    </linearGradient>
+
+    <!-- Bottom Accent Line Gradient -->
+    <linearGradient id="bottomLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0.2" />
+      <stop offset="35%" stop-color="#58a6ff" stop-opacity="0.9" />
+      <stop offset="65%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Subtle Wave Decoration -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.03" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#1e3a5f" stop-opacity="0.02" />
+    </linearGradient>
+
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1s infinite;
+        fill: #58a6ff;
+      }
+      .title {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-weight: 700;
+        font-size: 28px;
+        fill: #58a6ff;
+      }
+      .sub {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-weight: 500;
+        font-size: 16px;
+        fill: #7ee787;
+      }
+      .desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 14.5px;
+        fill: #c9d1d9;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="850" height="218" fill="url(#bannerBg)" rx="10" />
+
+  <!-- Subtle Ambient Wave -->
+  <path d="M0 60 Q 212.5 120, 425 60 T 850 60 L 850 218 L 0 218 Z" fill="url(#waveGrad)" />
+
+  <!-- Content Group (Perfect Centered Harmony) -->
+  <g text-anchor="middle">
+    <!-- Main Greeting Title -->
+    <text x="425" y="65" class="title">Hi, I'm David 👋</text>
+
+    <!-- Terminal Code Tagline -->
+    <text x="425" y="105" class="sub">> can't code, just tinkering to stay lazy ☕<tspan class="cursor">_</tspan></text>
+
+    <!-- Humble Bio -->
+    <text x="425" y="152" class="desc">Just an ordinary human who can't really code. Just someone tinkering with simple scripts</text>
+    <text x="425" y="176" class="desc">to avoid manual work, learning something new along the way.</text>
+  </g>
+
+  <!-- Bottom Enclosing Line (Menutup Banner Sampai Garis) -->
+  <line x1="0" y1="219" x2="850" y2="219" stroke="url(#bottomLine)" stroke-width="2" />
+</svg>
