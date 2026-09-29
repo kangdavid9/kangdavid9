@@ -1,31 +1,22 @@
 <div align="center">
 
-<!-- Typing SVG Header -->
+<!-- Waving Gradient Banner Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1e3a5f&height=160&section=header" width="100%" />
+
+<!-- Typing SVG Header (Konsep 1) -->
 <a href="https://github.com/kangdavid9">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Kang+David+%F0%9F%91%8B;Automation+%26+Backend+Engineer;Autonomous+AI+Agents+%26+Bots;Streamlining+Workflows+at+Scale" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+David+%F0%9F%91%8B;Just+an+ordinary+human;Can't+code%2C+just+tinkering;Automating+stuff+to+stay+lazy+%E2%98%95" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <em>Specialized in Python automation, high-concurrency bot infrastructure, and autonomous agent systems.</em>
+  <em>Just an ordinary human who can't really code. Just someone tinkering with simple scripts to avoid manual work, learning something new along the way.</em>
 </p>
 
 ---
 
 </div>
 
-### ⚡ Core Engineering & Architecture
-
-```yaml
-specialties:
-  - Bot Architecture & Web Automation (Playwright, Chrome CDP, Anti-Bot Bypass)
-  - Real-Time Media Streaming & Processing (FFmpeg, RTMP, Live Syndication)
-  - Autonomous AI Agents & Tooling (MCP Protocol, Gemini SDK, Claude API)
-  - Windows & Linux Infrastructure, Process Concurrency, Reverse Engineering
-```
-
----
-
-### 🛠️ Tech Stack & Ecosystem
+### 🛠️ Tools & Tech I Tinker With
 
 <div align="center">
 
@@ -36,7 +27,7 @@ specialties:
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 
-#### Automation & Media Infrastructure
+#### Automation, Media & Infrastructure
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
 <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
@@ -44,7 +35,7 @@ specialties:
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white" />
 
-#### AI & Autonomous Agents
+#### AI & Intelligent Assistants
 <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" />
 <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-4A5568?style=flat-square&logo=dependabot&logoColor=white" />
@@ -53,7 +44,7 @@ specialties:
 
 ---
 
-### 📊 Real-Time GitHub Analytics
+### 📊 GitHub Activity
 
 <div align="center">
 
@@ -69,5 +60,5 @@ specialties:
 ---
 
 <div align="center">
-  <sub>⚡ <i>"Build once, automate relentlessly, scale cleanly."</i></sub>
+  <sub>☕ <i>"Build small things, learn every day, keep it simple."</i></sub>
 </div>
