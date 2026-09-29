@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Waving Gradient Banner Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1e3a5f&height=160&section=header" width="100%" />
+<!-- Waving Gradient Top Banner Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1e3a5f&height=140&section=header" width="100%" />
 
 <!-- Typing SVG Header (Konsep 1) -->
 <a href="https://github.com/kangdavid9">
@@ -12,11 +12,14 @@
   <em>Just an ordinary human who can't really code. Just someone tinkering with simple scripts to avoid manual work, learning something new along the way.</em>
 </p>
 
+<!-- Waving Gradient Bottom Transition (Model 1B: Menutup Banner Sampai Garis) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,50:161b22,100:0d1117&height=70&section=footer" width="100%" />
+
 ---
 
 </div>
 
-### 🛠️ Tools & Tech I Tinker With
+### <img src="./assets/icons/tools.svg" width="20" height="20" /> Stuff I Mess Around With
 
 <div align="center">
 
@@ -44,7 +47,7 @@
 
 ---
 
-### 📊 GitHub Activity
+### <img src="./assets/icons/activity.svg" width="20" height="20" /> Commit History (Mostly Trial & Error)
 
 <div align="center">
 
@@ -60,5 +63,5 @@
 ---
 
 <div align="center">
-  <sub>☕ <i>"Build small things, learn every day, keep it simple."</i></sub>
+  <sub><img src="./assets/icons/coffee.svg" width="16" height="16" /> <i>"Build small things, learn every day, keep it simple."</i></sub>
 </div>
