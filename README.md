@@ -1,4 +1,6 @@
-<div align="center">
+<table width="100%" border="0">
+<tr>
+<td width="58%" valign="top">
 
 <!-- Banner Header (Adaptive Light/Dark Mode) -->
 <a href="https://github.com/kangdavid9">
@@ -9,13 +11,7 @@
 </picture>
 </a>
 
-</div>
-
-<br/>
-
-<table width="100%" border="0">
-<tr>
-<td width="53%" valign="top">
+<br/><br/>
 
 ### <img src="./assets/icons/tools.svg" width="20" height="20" /> Stuff I Mess Around With
 
@@ -44,9 +40,7 @@
 <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-4A5568?style=flat-square&logo=dependabot&logoColor=white" />
 
 </td>
-<td width="47%" valign="top" align="center">
-
-### <img src="./assets/icons/activity.svg" width="20" height="20" /> Commit History (Mostly Trial & Error)
+<td width="42%" valign="top" align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=kangdavid9&show_icons=true&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9">

@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="100%" height="200">
   <defs>
-    <!-- Background Light Gradient -->
-    <linearGradient id="bannerBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradient (Soft Mist Daylight) -->
+    <linearGradient id="skyGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
       <stop offset="50%" stop-color="#f6f8fa" />
-      <stop offset="100%" stop-color="#eef2f6" />
+      <stop offset="100%" stop-color="#eaf0f6" />
     </linearGradient>
 
-    <!-- Bottom Accent Line Gradient -->
-    <linearGradient id="bottomLineLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d0d7de" stop-opacity="0.3" />
-      <stop offset="35%" stop-color="#0969da" stop-opacity="0.8" />
-      <stop offset="65%" stop-color="#218bff" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#d0d7de" stop-opacity="0.3" />
+    <!-- Mountain Gradient 1 (Distant Mist Light) -->
+    <linearGradient id="mountDistantLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.4" />
     </linearGradient>
 
-    <!-- Subtle Wave Decoration -->
-    <linearGradient id="waveGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0969da" stop-opacity="0.03" />
-      <stop offset="50%" stop-color="#218bff" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#0969da" stop-opacity="0.02" />
+    <!-- Mountain Gradient 2 (Mid-ground Light) -->
+    <linearGradient id="mountMidLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+
+    <!-- Forest Silhouette Gradient Light -->
+    <linearGradient id="forestLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#334155" />
     </linearGradient>
 
     <style>
@@ -34,43 +37,68 @@
       .title {
         font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-weight: 700;
-        font-size: 28px;
+        font-size: 22px;
         fill: #0969da;
       }
       .sub {
         font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 13.5px;
         fill: #1a7f37;
       }
       .desc {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-        font-size: 14.5px;
+        font-size: 12.5px;
         fill: #57606a;
         font-style: italic;
       }
     </style>
   </defs>
 
-  <!-- Canvas Background with border -->
-  <rect width="850" height="218" fill="url(#bannerBgLight)" stroke="#d0d7de" stroke-width="1" rx="10" />
+  <!-- Sky Canvas with Rounded Border -->
+  <rect width="520" height="198" fill="url(#skyGradLight)" stroke="#d0d7de" stroke-width="1" rx="10" />
 
-  <!-- Subtle Ambient Wave -->
-  <path d="M0 60 Q 212.5 120, 425 60 T 850 60 L 850 218 L 0 218 Z" fill="url(#waveGradLight)" />
+  <!-- Distant Misty Mountain Ridge -->
+  <path d="M 210 198 L 260 135 L 310 155 L 380 95 L 435 130 L 485 85 L 520 115 L 520 198 Z" fill="url(#mountDistantLight)" />
 
-  <!-- Content Group -->
-  <g text-anchor="middle">
-    <!-- Main Greeting Title -->
-    <text x="425" y="65" class="title">Hi, I'm David</text>
+  <!-- Mid-ground Mountain Ridge -->
+  <path d="M 250 198 L 305 150 L 355 170 L 415 125 L 470 160 L 520 120 L 520 198 Z" fill="url(#mountMidLight)" />
 
-    <!-- Terminal Code Tagline -->
-    <text x="425" y="105" class="sub">&gt; can't code, just tinkering to stay lazy<tspan class="cursor">_</tspan></text>
-
-    <!-- Humble Bio -->
-    <text x="425" y="152" class="desc">Just an ordinary human who can't really code. Just someone tinkering with simple scripts</text>
-    <text x="425" y="176" class="desc">to avoid manual work, learning something new along the way.</text>
+  <!-- Pine Tree Silhouettes (Right foreground) -->
+  <g fill="url(#forestLight)">
+    <!-- Hills under trees -->
+    <path d="M 310 198 Q 420 155, 520 165 L 520 198 Z" />
+    <!-- Pine Trees -->
+    <polygon points="340,165 336,180 344,180" />
+    <polygon points="352,160 347,178 357,178" />
+    <polygon points="365,152 360,175 370,175" />
+    <polygon points="378,158 373,178 383,178" />
+    <polygon points="392,148 386,172 398,172" />
+    <polygon points="405,142 399,170 411,170" />
+    <polygon points="418,145 412,172 424,172" />
+    <polygon points="432,138 425,168 439,168" />
+    <polygon points="445,135 438,168 452,168" />
+    <polygon points="458,140 452,170 464,170" />
+    <polygon points="472,132 465,165 479,165" />
+    <polygon points="485,136 478,168 492,168" />
+    <polygon points="498,130 491,165 505,165" />
+    <polygon points="510,135 503,168 517,168" />
   </g>
 
-  <!-- Bottom Enclosing Line -->
-  <line x1="0" y1="219" x2="850" y2="219" stroke="url(#bottomLineLight)" stroke-width="2" />
+  <!-- Left Content Group -->
+  <g transform="translate(24, 0)">
+    <!-- Title -->
+    <text x="0" y="52" class="title">Hi, I'm David</text>
+
+    <!-- Terminal Subtitle -->
+    <text x="0" y="86" class="sub">&gt; can't code, just tinkering to stay lazy<tspan class="cursor">_</tspan></text>
+
+    <!-- Bio Description -->
+    <text x="0" y="128" class="desc">Just an ordinary human who can't really code.</text>
+    <text x="0" y="148" class="desc">Tinkering with simple scripts to avoid manual work,</text>
+    <text x="0" y="168" class="desc">learning something new along the way.</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <line x1="0" y1="199" x2="520" y2="199" stroke="#d0d7de" stroke-width="1.5" />
 </svg>
