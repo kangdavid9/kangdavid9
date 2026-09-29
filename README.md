@@ -1,8 +1,12 @@
 <div align="center">
 
-<!-- Banner Header -->
+<!-- Banner Header (Adaptive Light/Dark Mode) -->
 <a href="https://github.com/kangdavid9">
-  <img src="./assets/banner.svg" width="100%" alt="Kang David Header" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img src="./assets/banner-dark.svg" width="100%" alt="Kang David Header" />
+</picture>
 </a>
 
 </div>
@@ -11,7 +15,7 @@
 
 <table width="100%" border="0">
 <tr>
-<td width="55%" valign="top">
+<td width="53%" valign="top">
 
 ### <img src="./assets/icons/tools.svg" width="20" height="20" /> Stuff I Mess Around With
 
@@ -40,19 +44,23 @@
 <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-4A5568?style=flat-square&logo=dependabot&logoColor=white" />
 
 </td>
-<td width="45%" valign="top" align="center">
+<td width="47%" valign="top" align="center">
 
 ### <img src="./assets/icons/activity.svg" width="20" height="20" /> Commit History (Mostly Trial & Error)
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=kangdavid9&show_icons=true&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="100%" alt="GitHub Stats" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=kangdavid9&show_icons=true&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=kangdavid9&show_icons=true&theme=default&hide_border=false&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=kangdavid9&show_icons=true&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="100%" alt="GitHub Stats" />
+</picture>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="100%" alt="Streak Stats" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kangdavid9&layout=compact&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="100%" alt="Top Languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=default&hide_border=false&border_color=d0d7de&background=ffffff&ring=0969da&fire=0969da&currStreakLabel=0969da">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="100%" alt="Streak Stats" />
+</picture>
 
 </td>
 </tr>
