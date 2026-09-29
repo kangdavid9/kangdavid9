@@ -13,6 +13,15 @@
 
 <br/><br/>
 
+<!-- Pinned Repositories (Adaptive Light/Dark Mode) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pinned-repos-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pinned-repos-light.svg">
+  <img src="./assets/pinned-repos-dark.svg" width="100%" alt="Pinned Repositories" />
+</picture>
+
+<br/><br/>
+
 ### <img src="./assets/icons/tools.svg" width="20" height="20" /> Stuff I Mess Around With
 
 **Bahasa yang Pura-pura Saya Paham**<br/>
@@ -54,6 +63,14 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=default&hide_border=false&border_color=d0d7de&background=ffffff&ring=0969da&fire=0969da&currStreakLabel=0969da">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kangdavid9&theme=tokyonight&hide_border=false&border_color=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="100%" alt="Streak Stats" />
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kangdavid9&layout=compact&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kangdavid9&layout=compact&theme=default&hide_border=false&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=kangdavid9&layout=compact&theme=tokyonight&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="100%" alt="Top Languages" />
 </picture>
 
 </td>

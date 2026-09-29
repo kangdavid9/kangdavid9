@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 235" width="100%" height="235">
+  <defs>
+    <style>
+      .section-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 13.5px;
+        font-weight: 600;
+        fill: #1f2328;
+      }
+      .card-bg {
+        fill: #ffffff;
+        stroke: #d0d7de;
+        stroke-width: 1;
+        rx: 6px;
+      }
+      .repo-name {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #0969da;
+      }
+      .badge-bg {
+        fill: transparent;
+        stroke: #d0d7de;
+        stroke-width: 1;
+        rx: 10px;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        fill: #656d76;
+      }
+      .desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        fill: #57606a;
+      }
+      .meta {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        fill: #656d76;
+      }
+    </style>
+  </defs>
+
+  <!-- Section Header -->
+  <g transform="translate(0, 16)">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.35-.9a.25.25 0 0 0-.3 0l-1.35.9a.25.25 0 0 1-.4-.2Z" fill="#656d76" transform="translate(0, -2)" />
+    <text x="22" y="10" class="section-title">Pinned repositories</text>
+  </g>
+
+  <!-- Card 1: youtube-account-bot-v4 -->
+  <g transform="translate(0, 32)">
+    <rect width="252" height="92" class="card-bg" />
+    <a href="https://github.com/kangdavid9/youtube-account-bot-v4" target="_blank">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z" fill="#656d76" transform="translate(14, 13) scale(0.9)" />
+      <text x="32" y="24" class="repo-name">youtube-account-bot-v4</text>
+    </a>
+    <rect x="206" y="14" width="36" height="15" class="badge-bg" />
+    <text x="224" y="25" text-anchor="middle" class="badge-text">Public</text>
+    <text x="14" y="44" class="desc">YouTube automation &amp; live streaming</text>
+    <text x="14" y="58" class="desc">syndication pipeline.</text>
+    <!-- Meta: Language & Stars -->
+    <circle cx="18" cy="76" r="4.5" fill="#3572A5" />
+    <text x="28" y="79.5" class="meta">Python</text>
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#656d76" transform="translate(80, 70) scale(0.75)" />
+    <text x="96" y="79.5" class="meta">48</text>
+    <path d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5A2.25 2.25 0 0 0 6.5 6.25h-.75a.75.75 0 0 1-.75-.75v-.128Z" fill="#656d76" transform="translate(122, 69) scale(0.85)" />
+    <text x="136" y="79.5" class="meta">12</text>
+  </g>
+
+  <!-- Card 2: botwa-automations -->
+  <g transform="translate(268, 32)">
+    <rect width="252" height="92" class="card-bg" />
+    <a href="https://github.com/kangdavid9/botwa" target="_blank">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z" fill="#656d76" transform="translate(14, 13) scale(0.9)" />
+      <text x="32" y="24" class="repo-name">botwa-automations</text>
+    </a>
+    <rect x="206" y="14" width="36" height="15" class="badge-bg" />
+    <text x="224" y="25" text-anchor="middle" class="badge-text">Public</text>
+    <text x="14" y="44" class="desc">Headless messaging &amp; webhook</text>
+    <text x="14" y="58" class="desc">automation with Playwright &amp; Node.</text>
+    <!-- Meta: Language & Stars -->
+    <circle cx="18" cy="76" r="4.5" fill="#3178C6" />
+    <text x="28" y="79.5" class="meta">TypeScript</text>
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#656d76" transform="translate(100, 70) scale(0.75)" />
+    <text x="116" y="79.5" class="meta">34</text>
+    <path d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5A2.25 2.25 0 0 0 6.5 6.25h-.75a.75.75 0 0 1-.75-.75v-.128Z" fill="#656d76" transform="translate(142, 69) scale(0.85)" />
+    <text x="156" y="79.5" class="meta">8</text>
+  </g>
+
+  <!-- Card 3: oracle-cloud-tasks -->
+  <g transform="translate(0, 134)">
+    <rect width="252" height="92" class="card-bg" />
+    <a href="https://github.com/kangdavid9/oracle" target="_blank">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z" fill="#656d76" transform="translate(14, 13) scale(0.9)" />
+      <text x="32" y="24" class="repo-name">oracle-cloud-tasks</text>
+    </a>
+    <rect x="206" y="14" width="36" height="15" class="badge-bg" />
+    <text x="224" y="25" text-anchor="middle" class="badge-text">Public</text>
+    <text x="14" y="44" class="desc">Cloud infrastructure scripts, cron</text>
+    <text x="14" y="58" class="desc">runners &amp; RabbitMQ background tasks.</text>
+    <!-- Meta: Language & Stars -->
+    <circle cx="18" cy="76" r="4.5" fill="#3572A5" />
+    <text x="28" y="79.5" class="meta">Python</text>
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#656d76" transform="translate(80, 70) scale(0.75)" />
+    <text x="96" y="79.5" class="meta">29</text>
+    <path d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5A2.25 2.25 0 0 0 6.5 6.25h-.75a.75.75 0 0 1-.75-.75v-.128Z" fill="#656d76" transform="translate(122, 69) scale(0.85)" />
+    <text x="136" y="79.5" class="meta">6</text>
+  </g>
+
+  <!-- Card 4: dev-toolbox-lazy -->
+  <g transform="translate(268, 134)">
+    <rect width="252" height="92" class="card-bg" />
+    <a href="https://github.com/kangdavid9/kangdavid9" target="_blank">
+      <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z" fill="#656d76" transform="translate(14, 13) scale(0.9)" />
+      <text x="32" y="24" class="repo-name">dev-toolbox-lazy</text>
+    </a>
+    <rect x="206" y="14" width="36" height="15" class="badge-bg" />
+    <text x="224" y="25" text-anchor="middle" class="badge-text">Public</text>
+    <text x="14" y="44" class="desc">Curated shell scripts, bash aliases</text>
+    <text x="14" y="58" class="desc">&amp; configs to stay lazy.</text>
+    <!-- Meta: Language & Stars -->
+    <circle cx="18" cy="76" r="4.5" fill="#89e051" />
+    <text x="28" y="79.5" class="meta">Shell</text>
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#656d76" transform="translate(80, 70) scale(0.75)" />
+    <text x="96" y="79.5" class="meta">21</text>
+    <path d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5A2.25 2.25 0 0 0 6.5 6.25h-.75a.75.75 0 0 1-.75-.75v-.128Z" fill="#656d76" transform="translate(122, 69) scale(0.85)" />
+    <text x="136" y="79.5" class="meta">4</text>
+  </g>
+</svg>
