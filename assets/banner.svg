@@ -58,13 +58,13 @@
   <!-- Subtle Ambient Wave -->
   <path d="M0 60 Q 212.5 120, 425 60 T 850 60 L 850 218 L 0 218 Z" fill="url(#waveGrad)" />
 
-  <!-- Content Group (Perfect Centered Harmony) -->
+  <!-- Content Group (Clean Typography Without Emojis) -->
   <g text-anchor="middle">
     <!-- Main Greeting Title -->
-    <text x="425" y="65" class="title">Hi, I'm David 👋</text>
+    <text x="425" y="65" class="title">Hi, I'm David</text>
 
     <!-- Terminal Code Tagline -->
-    <text x="425" y="105" class="sub">> can't code, just tinkering to stay lazy ☕<tspan class="cursor">_</tspan></text>
+    <text x="425" y="105" class="sub">> can't code, just tinkering to stay lazy<tspan class="cursor">_</tspan></text>
 
     <!-- Humble Bio -->
     <text x="425" y="152" class="desc">Just an ordinary human who can't really code. Just someone tinkering with simple scripts</text>
